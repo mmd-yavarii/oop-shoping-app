@@ -1,0 +1,143 @@
+[
+  {
+    "id": "19f8b6ba-eaf7-472c-8ffe-e8751203c241",
+    "name": "mw2",
+    "brand": "Adidas",
+    "price": 99,
+    "gender": "women",
+    "sizes": [38, 39, 40, 41, 42],
+    "image": "./img/1.png",
+    "color": "hwb(203 44% 0%)"
+  },
+  {
+    "id": "2731630e-ba03-456a-8e90-3bf6066fcdbc",
+    "name": "S300",
+    "brand": "Nike",
+    "price": 187,
+    "gender": "men",
+    "sizes": [38, 39, 40, 41, 42],
+    "image": "./img/2.webp",
+    "color": "hwb(21 44% 0%)"
+  },
+  {
+    "id": "1c4435c4-77bd-48e8-8599-2f9757ec5ab2",
+    "name": "msd",
+    "brand": "Nike",
+    "price": 199,
+    "gender": "men",
+    "sizes": [38, 39, 40, 41, 42],
+    "image": "./img/3.png",
+    "color": "hwb(231 56% 0%)"
+  },
+  {
+    "id": "d9dde164-afb3-4a1b-a3c5-5e868df336b9",
+    "name": "ZX",
+    "brand": "Nike",
+    "price": 98,
+    "gender": "women",
+    "sizes": [38, 39, 40, 41, 42],
+    "image": "./img/4.webp",
+    "color": "hwb(314 64% 0%)"
+  },
+  {
+    "id": "62e86bbb-900f-44a5-b526-304dd80d27ec",
+    "name": "SF",
+    "brand": "Adidas",
+    "price": 111,
+    "gender": "men",
+    "sizes": [38, 39, 40, 41, 42],
+    "image": "./img/5.png",
+    "color": "hwb(356 54% 0%)"
+  },
+  {
+    "id": "d758358c-7c46-47ff-8db7-8632890d1852",
+    "name": "DS11",
+    "brand": "Adidas",
+    "price": 176,
+    "gender": "women",
+    "sizes": [38, 39, 40, 41, 42],
+    "image": "./img/6.png",
+    "color": "hwb(203 44% 0%)"
+  },
+  {
+    "id": "471bf759-d7f4-41ef-8aa7-3afd48389809",
+    "name": "SS",
+    "brand": "Nike",
+    "price": 290,
+    "gender": "men",
+    "sizes": [38, 39, 40, 41, 42],
+    "image": "./img/7.png",
+    "color": "hwb(231 56% 0%)"
+  },
+  {
+    "id": "e8243809-042f-4617-be06-a5babd285453",
+    "name": "SS22",
+    "brand": "Nike",
+    "price": 177,
+    "gender": "men",
+    "sizes": [38, 39, 40, 41, 42],
+    "image": "./img/8.png",
+    "color": "hwb(314 64% 0%)"
+  },
+
+  {
+    "id": "844549d3-64f4-46a1-af7d-d0e84bd5b3fa",
+    "name": "SM",
+    "brand": "Adidas",
+    "price": 199,
+    "gender": "women",
+    "sizes": [38, 39, 40, 41, 42],
+    "image": "./img/9.png",
+    "color": "hwb(21 44% 0%)"
+  },
+  {
+    "id": "b9adc113-d85d-42ba-b46e-2a02588d87f8",
+    "name": "AZ11",
+    "brand": "Nike",
+    "price": 300,
+    "gender": "men",
+    "sizes": [38, 39, 40, 41, 42],
+    "image": "./img/10.png",
+    "color": "hwb(203 44% 0%)"
+  },
+  {
+    "id": "fb1bab29-d8d8-42b8-affc-6987f154296d",
+    "name": "S300",
+    "brand": "Nike",
+    "price": 89,
+    "gender": "men",
+    "sizes": [38, 39, 40, 41, 42],
+    "image": "./img/11.png",
+    "color": "hwb(356 54% 0%)"
+  },
+  {
+    "id": "233b36f3-5447-45ec-b1b1-86c2e465953f",
+    "name": "MH",
+    "brand": "Adidas",
+    "price": 97,
+    "gender": "women",
+    "sizes": [38, 39, 40, 41, 42],
+    "image": "./img/12.png",
+    "color": "hwb(231 56% 0%)"
+  },
+  {
+    "id": "a299c59b-9a90-4901-a4cf-bd5ac69bbde5",
+    "name": "Sl9",
+    "brand": "Nike",
+    "price": 99,
+    "gender": "women",
+    "sizes": [38, 39, 40, 41, 42],
+    "image": "./img/13.png",
+    "color": "hwb(314 64% 0%)"
+  },
+  {
+    "id": "ee8d443c-25b5-4495-9916-21ef5ece27d2",
+    "name": "KS",
+    "brand": "Nike",
+    "price": 166,
+    "gender": "women",
+    "sizes": [38, 39, 40, 41, 42],
+    "image": "./img/14.png",
+    "color": "hwb(203 44% 0%)"
+  }
+]

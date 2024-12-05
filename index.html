@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>oop shoping</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <!-- loading -->
+    <div class="loading"></div>
+
+    <!-- app -->
+    <div id="app">
+      <header>
+        <div class="logo-abd-cart-btn">
+          <img
+            width="30"
+            height="30"
+            src="https://img.icons8.com/ios-filled/50/nike.png"
+            alt="nike"
+          />
+
+          <button id="cart-btn">
+            <img
+              width="25"
+              height="25"
+              src="https://img.icons8.com/windows/50/shopping-cart.png"
+              alt="shopping-cart"
+            />
+          </button>
+        </div>
+        <input type="text" placeholder="Search..." id="search" />
+      </header>
+
+      <main></main>
+    </div>
+    <script type="module" src="./utils/httpRequest.js"></script>
+
+    <script type="module" src="./models/Parent.js"></script>
+    <script type="module" src="./models/Products.js"></script>
+    <script type="module" src="./models/Cart.js"></script>
+
+    <script type="module" src="./js/app.js"></script>
+  </body>
+</html>

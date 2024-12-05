@@ -1,0 +1,218 @@
+:root {
+  --color-primary: #4a8999;
+  --background-color: #fafafa;
+  --text-color: #373c42;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  color: var(--text-color);
+  border: 0;
+  outline: 0;
+}
+body {
+  padding: 1.5em;
+  max-width: 1500px;
+  margin: 0 auto;
+  background-color: var(--background-color);
+}
+
+.logo-abd-cart-btn {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#cart-btn {
+  background-color: transparent;
+  opacity: 0.6;
+}
+
+#search {
+  padding: 1em;
+  width: 100%;
+  background-color: #f2f2f2;
+  border-radius: 13px;
+}
+#search::placeholder {
+  color: #c4c4c4;
+}
+
+.products {
+  width: 100%;
+  padding: 1.5em;
+  margin: 1em 0;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  overflow: hidden;
+}
+.image {
+  width: 16em;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.image span {
+  content: "";
+  display: inline-block;
+  opacity: 0.8;
+  width: 10em;
+  height: 10em;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  border-radius: 40px;
+}
+.image img {
+  z-index: 1;
+  width: 60%;
+  margin-bottom: 1em;
+}
+.products button {
+  width: 1.5em;
+  padding: 0.4em;
+  height: 1.5em;
+  background-color: var(--background-color);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+}
+.info {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.name {
+  font-size: 1.2rem;
+  font-weight: 900;
+  margin: 0.2em 0;
+}
+.price {
+  font-weight: 900;
+  margin-top: 0.5em;
+}
+.price::before {
+  content: "$";
+  display: inline-block;
+  margin-right: 5px;
+}
+.gender {
+  font-size: 0.8rem;
+  opacity: 0.8;
+}
+.gender::after {
+  content: "'s shoes";
+}
+.btn-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 6px;
+}
+
+/* responsive */
+@media only screen and (max-width: 500px) {
+  #search {
+    margin-top: 1em;
+  }
+  main {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+}
+
+@media only screen and (min-width: 500px) {
+  #search {
+    margin-top: 1em;
+  }
+  .image {
+    width: 25em;
+  }
+  .products {
+    flex-direction: row-reverse;
+  }
+  .info {
+    height: 100%;
+    flex-direction: column;
+    align-items: start;
+  }
+  .info button {
+    margin-top: 2em;
+    cursor: pointer;
+  }
+}
+@media only screen and (min-width: 700px) {
+  header {
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1em;
+  }
+  .logo-abd-cart-btn {
+    display: flex;
+    gap: 1.5em;
+  }
+  #search {
+    max-width: 600px;
+    margin-top: 0;
+    margin-left: 1em;
+  }
+  main {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1em;
+  }
+  .products {
+    width: 300px;
+    flex-direction: row-reverse;
+  }
+  .info {
+    flex-direction: column;
+    align-items: start;
+  }
+  .info button {
+    margin-top: 2em;
+  }
+}
+
+/* loading */
+.loading {
+  height: 50px;
+  width: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: progress;
+  border-radius: 50%;
+  border-top: 5px solid var(--color-primary);
+  border-bottom: 5px solid transparent;
+  border-left: 5px solid var(--color-primary);
+  border-right: 5px solid transparent;
+  animation: loading 1s linear infinite;
+  position: fixed;
+  top: 50%;
+  left: 45%;
+  transform: translate(-50%, -50%);
+}
+
+@keyframes loading {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
